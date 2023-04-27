@@ -1,0 +1,11 @@
+
+
+function Error({ children }) {
+    return (
+        <div className="text-center my-4 bg-red-100 border-red-600 text-red-600 font-bold p-3 uppercase">
+            {children}
+        </div>
+    )
+}
+
+export default Error
